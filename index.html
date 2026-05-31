@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm</title>
+</head>
+<body>
+    <table border="1" style="width: 50%; height: auto;">
+
+        <tr style="background-color: #55befc; font-weight: bold; text-align: center;">
+            <td>Name</td>
+            <td>Value</td>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio" name="sex" value="male">Male
+                <br>
+                <input type="radio" name="sex" value="female">Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Eye Color</td>
+            <td>
+                <input type="text" list="eye-colors" name="eye-color" placeholder="Colors eye" >
+                <datalist id="eye-colors">
+                    <option value="Blue">
+                    <option value="Green">
+                    <option value="Brown">
+                    <option value="Hazel">
+                </datalist>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Check all that apply</td>
+            <td>
+                <input type="checkbox" name="hobby" value="sports">Over 6 feet tall
+                <br>
+                <input type="checkbox" name="hobby" value="music">Over 200 pounds
+            </td>
+        </tr>
+        <tr style="background-color: #55befc; font-weight: bold; text-align: center;">
+            <td colspan="2">Describe Your athletic abilities:</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"">
+                <textarea name="athletic-abilities" rows="5" cols="125" placeholder="Please describe your athletic abilities..."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Enter my information</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
